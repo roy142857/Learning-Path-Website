@@ -1,0 +1,45 @@
+.loginForm {
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    margin: 10%;
+    /*width: 50%;*/
+    /*height: auto;*/
+    /*outline: solid 1px gray;*/
+    display: block;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+}
+
+.loginForm TextField {
+    position: static;
+
+    /*width: 100%;*/
+    /*display: inline-block;*/
+    /*width: 200px;*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    width: 200px;
+    padding: 20px;
+    /*padding-right: 10px;*/
+    /*padding-bottom: 10px;*/
+    height: 50px;
+    /*!* Center vertically and horizontally *!*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    left: 50%;
+    /*margin: -25px 0 0 -25px; !* Apply negative top and left margins to truly center the element *!*/
+}
+
+.loginForm Button {
+    color: white;
+    margin-left: 5px;
+}
+
+#entries input {
+    width: 150px;
+}
+
+.buttons {
+    padding-left: 30%;
+}

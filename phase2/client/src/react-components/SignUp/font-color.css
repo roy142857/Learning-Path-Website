@@ -1,0 +1,442 @@
+/* Variables */
+
+:root {
+    --black-2: rgba(0, 0, 0, 0.6);
+    --black: rgba(0, 0, 0, 1);
+    --robins-egg-blue: rgba(17, 205, 239, 1);
+    --log-cabin: rgba(35, 35, 35, 0.902);
+    --shamrock: rgba(45, 206, 137, 1);
+    --martinique: rgba(50, 50, 93, 1);
+    --black-coral-pearl: rgba(82, 95, 127, 1);
+    --gray: rgba(125, 129, 134, 1);
+    --bali-hai: rgba(136, 152, 170, 1);
+    --mountain-mist: rgba(152, 152, 152, 1);
+    --cultured-pearl: rgba(245, 245, 245, 1);
+    --orange-soda: rgba(251, 99, 64, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xs: 10px;
+    --font-size-s: 13px;
+    --font-size-m: 14px;
+    --font-size-l: 16px;
+    --font-size-xxl: 28px;
+    --font-size-xxxl: 30px;
+    --font-size-xxxl: 48px;
+    --font-size-xxxxxl: 64px;
+    --font-size-l3: 18px;
+    --font-size-l2: 20px;
+    --font-size-l2: 22px;
+    --font-size-xl2: 24px;
+    --font-size-xxxxl2: 36px;
+
+    --font-family-open_sans: "Open Sans";
+    --font-family-open_sans-bold: "Open Sans-Bold";
+    --font-family-open_sans-light: "Open Sans-Light";
+    --font-family-open_sans-regular: "Open Sans-Regular";
+    --font-family-roboto: "Roboto";
+    --font-family-sf_pro-regular: "SF Pro-Regular";
+    --font-family-trap-bold: "Trap-Bold";
+    --font-family-ubuntu: "Ubuntu";
+    --font-family-ubuntu-bold: "Ubuntu-Bold";
+    --font-family-ubuntu-medium: "Ubuntu-Medium";
+    --font-family-ubuntu-regular: "Ubuntu-Regular";
+}
+
+/* Classes */
+
+.opensans-normal-bali-hai-14px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium-log-cabin-14px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.border-0-5px-mountain-mist {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: var(--mountain-mist);
+}
+
+.opensans-normal-shamrock-14px {
+    color: var(--shamrock);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xxxxl2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-bold-bali-hai-13px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.opensans-light-bali-hai-14px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans-light);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-medium-log-cabin-30px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu-medium);
+    font-size: var(--font-size-xxxl);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.border-1px-log-cabin {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--log-cabin);
+}
+
+.ubuntu-regular-normal-cultured-pearl-13px {
+    color: var(--cultured-pearl);
+    font-family: var(--font-family-ubuntu-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.trap-bold-log-cabin-22px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-trap-bold);
+    font-size: var(--font-size-l2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sfpro-regular-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-sf_pro-regular);
+    font-size: var(--font-size-xxxxl2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-regular-normal-martinique-20px {
+    color: var(--martinique);
+    font-family: var(--font-family-open_sans-regular);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-bold-log-cabin-64px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu-bold);
+    font-size: var(--font-size-xxxxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-normal-black-16px {
+    color: var(--black-2);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-bold-log-cabin-14px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.opensans-regular-normal-bali-hai-14px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium-log-cabin-28px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu-medium);
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-normal-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sfpro-regular-normal-black-16px {
+    color: var(--black-2);
+    font-family: var(--font-family-sf_pro-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-normal-cultured-pearl-24px {
+    color: var(--cultured-pearl);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xl2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-regular-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-ubuntu-regular);
+    font-size: var(--font-size-xxxxl2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-normal-black-coral-pearl-14px {
+    color: var(--black-coral-pearl);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-medium-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-ubuntu-medium);
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-medium-log-cabin-14px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-medium-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-ubuntu-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-medium-log-cabin-30px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xxxl);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-regular-normal-cultured-pearl-24px {
+    color: var(--cultured-pearl);
+    font-family: var(--font-family-ubuntu-regular);
+    font-size: var(--font-size-xl2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-normal-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xxxxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-regular-normal-shamrock-14px {
+    color: var(--shamrock);
+    font-family: var(--font-family-open_sans-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-bold-log-cabin-14px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-normal-gray-14px {
+    color: var(--gray);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-bold-bali-hai-13px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans-bold);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.opensans-bold-bali-hai-10px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans);
+    font-size: 10px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.opensans-bold-black-coral-pearl-14px {
+    color: var(--black-coral-pearl);
+    font-family: var(--font-family-open_sans-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sfpro-regular-normal-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-sf_pro-regular);
+    font-size: var(--font-size-xxxxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-light-bali-hai-14px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.trap-bold-white-22px {
+    color: var(--white);
+    font-family: var(--font-family-trap-bold);
+    font-size: var(--font-size-l2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-normal-log-cabin-22px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-bold-black-coral-pearl-14px {
+    color: var(--black-coral-pearl);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.opensans-bold-bali-hai-10px {
+    color: var(--bali-hai);
+    font-family: var(--font-family-open_sans-bold);
+    font-size: 10px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-normal-cultured-pearl-13px {
+    color: var(--cultured-pearl);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-bold-log-cabin-64px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xxxxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xl2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-regular-normal-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-ubuntu-regular);
+    font-size: var(--font-size-xxxxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xxxxl2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.opensans-regular-normal-black-coral-pearl-14px {
+    color: var(--black-coral-pearl);
+    font-family: var(--font-family-open_sans-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium-log-cabin-28px {
+    color: var(--log-cabin);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-xxl);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.opensans-normal-martinique-20px {
+    color: var(--martinique);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: normal;
+}
+

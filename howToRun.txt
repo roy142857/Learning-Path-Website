@@ -1,0 +1,16 @@
+cd phase2
+
+# create and run local Mongo database in the root directory of the repo
+mkdir mongo-data
+mongod --dbpath mongo-data
+
+# In another terminal:
+npm install
+
+cd client
+npm install
+npm start
+
+# In the other terminal:
+cd ..
+node server.js

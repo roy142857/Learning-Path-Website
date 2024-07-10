@@ -1,0 +1,339 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+.group-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 97px;
+    width: 370px;
+}
+
+.group-2 {
+    alignment: right;
+    display: flex;
+    flex-direction: column;
+    min-height: 97px;
+    width: 370px;
+    margin-left: 100px;
+}
+
+.group-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 97px;
+    width: 370px;
+}
+
+.group-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 97px;
+    width: 370px;
+    margin-left: 100px;
+}
+
+.group-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 97px;
+    width: 1006px;
+}
+
+.group-6 {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    min-height: 305px;
+    width: 1006px;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    border-radius: 4px;
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+    margin-top: 5px;
+    min-width: 368px;
+    padding: 7.5px 9.5px;
+}
+
+.overlap-group-long {
+    align-items: flex-start;
+    border-radius: 4px;
+    display: flex;
+    height: 40px;
+    margin-top: 5px;
+    min-width: 1004px;
+    padding: 7.5px 11.5px;
+}
+
+.overlap-group-large {
+    align-items: flex-start;
+    border-radius: 4px;
+    display: flex;
+    height: 248px;
+    margin-top: 5px;
+    min-width: 1004px;
+    padding: 12.5px 11.5px;
+}
+
+.input-label {
+    background-color: transparent;
+    border: 0;
+    height: 24px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    padding: 0;
+    white-space: nowrap;
+    width: 345px;
+}
+
+.input-label::placeholder {
+    color: #0000005c;
+}
+
+.textarea-label {
+    background-color: transparent;
+    border: 0;
+    height: 224px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    padding: 0;
+    white-space: nowrap;
+    width: 979px;
+    resize: none;
+}
+
+.textarea-label::placeholder {
+    color: #0000005c;
+}
+
+.avator-url {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-height: 24px;
+    white-space: nowrap;
+}
+
+.overlap-group-1 {
+    align-items: flex-start;
+    border-radius: 4px;
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+    margin-top: 33px;
+    min-width: 1004px;
+    padding: 7.5px 11.5px;
+}
+
+.label-1 {
+    background-color: transparent;
+    border: 0;
+    height: 24px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    padding: 0;
+    white-space: nowrap;
+    width: 979px;
+}
+
+.label-1::placeholder {
+    color: #0000005c;
+}
+
+
+.description {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-height: 24px;
+    white-space: nowrap;
+}
+
+.overlap-group-2 {
+    align-items: flex-start;
+    border-radius: 4px;
+    display: flex;
+    height: 248px;
+    justify-content: flex-end;
+    margin-top: 33px;
+    min-width: 1004px;
+    padding: 12.5px 11.5px;
+}
+
+.label-2 {
+    background-color: transparent;
+    border: 0;
+    height: 220px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    padding: 0;
+    width: 979px;
+}
+
+.label-2::placeholder {
+    color: #0000005c;
+}
+
+.sign-up-page {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 1631px;
+    padding: 99px 0;
+    width: 1440px;
+}
+
+.vector {
+    height: 90px;
+    margin-right: 0.23px;
+    width: 320px;
+}
+
+.frame-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    min-height: 1022px;
+    width: 1006px;
+}
+
+.create-account {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 357px;
+    width: 1008px;
+}
+
+.h1-title {
+    height: 50px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    width: 800px;
+}
+
+.frame-8 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+    min-height: 280px;
+    width: 1006px;
+}
+
+.frame-6 {
+    align-items: flex-start;
+    display: flex;
+    height: 97px;
+    min-width: 1006px;
+    position: relative;
+}
+
+.frame-7 {
+    alignment: right;
+    display: flex;
+    height: 97px;
+    margin-top: 86px;
+    min-width: 1006px;
+    position: relative;
+}
+
+.personal-information {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 116px;
+    min-height: 549px;
+    width: 1008px;
+}
+
+.personal-information-1 {
+    height: 50px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    width: 626px;
+}
+
+.frame-9 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    margin-top: 43px;
+    min-height: 456px;
+    position: relative;
+    width: 1004px;
+}
+
+.button-raised-filled-left-disabled-theme {
+    border-radius: 4px;
+    height: 36px;
+    margin-top: 54px;
+    width: 194px;
+}
+
+.button-raised-filled-left-disabled-theme {
+    height: auto !important;
+    width: auto !important;
+}
+
+.button-raised-filled-left-disabled-theme .mdc-button {
+    --mdc-theme-primary: #000000;
+}
+
+
+@font-face {
+    font-family: "SF Pro-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SFPro-Regular") format("truetype");
+}
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign_up_btn {
+    display: flex;
+    margin-top: 50px;
+}
+
+.makeStyles-root-1 {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+input:focus {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
